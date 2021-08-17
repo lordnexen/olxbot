@@ -20,7 +20,7 @@ def get_html(url):
         return False
 
 
-def get_adverts(link):
+def get_adverts(link, chat_id):
     
     html=get_html(link)
     if html:
@@ -29,8 +29,9 @@ def get_adverts(link):
         
         all_advs={}
         adv=[]
+        
         for advert in advs:
-
+            all_advs['chat_id'] = chat_id
             title = advert.find('h3', class_='lheight22 margintop5').text
             all_advs['title']=title.strip()
            

@@ -4156,3 +4156,2022 @@ AttributeError: 'list' object has no attribute 'add'
 2021-08-15 20:14:48,856 - INFO -Received signal 2 (SIGINT), stopping...
 2021-08-15 20:14:48,856 - INFO -Scheduler has been shut down
 2021-08-15 20:14:49,010 - WARNING -Exiting immediately!
+2021-08-16 12:14:13,327 - INFO -Bot is started
+2021-08-16 12:14:13,329 - INFO -Scheduler started
+2021-08-16 12:14:22,104 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    update.message.reply_text(text = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+TypeError: reply_text() got an unexpected keyword argument 'photo'
+2021-08-16 12:14:26,630 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:14:26,630 - INFO -Scheduler has been shut down
+2021-08-16 12:14:27,514 - WARNING -Exiting immediately!
+2021-08-16 12:15:00,593 - INFO -Bot is started
+2021-08-16 12:15:00,595 - INFO -Scheduler started
+2021-08-16 12:15:01,015 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    update.message.send_message(text = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+AttributeError: 'Message' object has no attribute 'send_message'
+2021-08-16 12:15:03,470 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:15:03,470 - INFO -Scheduler has been shut down
+2021-08-16 12:15:04,574 - WARNING -Exiting immediately!
+2021-08-16 12:15:39,157 - INFO -Bot is started
+2021-08-16 12:15:39,158 - INFO -Scheduler started
+2021-08-16 12:15:41,323 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    context.bot.send_message(text = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+TypeError: send_message() got an unexpected keyword argument 'photo'
+2021-08-16 12:15:44,183 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:15:44,184 - INFO -Scheduler has been shut down
+2021-08-16 12:15:44,417 - WARNING -Exiting immediately!
+2021-08-16 12:16:59,643 - INFO -Bot is started
+2021-08-16 12:16:59,647 - INFO -Scheduler started
+2021-08-16 12:16:59,967 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    context.bot.send_photo(caption = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+TypeError: send_photo() missing 1 required positional argument: 'chat_id'
+2021-08-16 12:17:00,949 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    context.bot.send_photo(caption = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+TypeError: send_photo() missing 1 required positional argument: 'chat_id'
+2021-08-16 12:17:01,633 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    context.bot.send_photo(caption = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+TypeError: send_photo() missing 1 required positional argument: 'chat_id'
+2021-08-16 12:17:03,007 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:17:03,007 - INFO -Scheduler has been shut down
+2021-08-16 12:17:33,591 - INFO -Bot is started
+2021-08-16 12:17:33,592 - INFO -Scheduler started
+2021-08-16 12:17:45,654 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:17:45,654 - INFO -Scheduler has been shut down
+2021-08-16 12:20:07,235 - INFO -Bot is started
+2021-08-16 12:20:07,237 - INFO -Scheduler started
+2021-08-16 12:20:17,479 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:20:17,479 - INFO -Scheduler has been shut down
+2021-08-16 12:20:17,702 - WARNING -Exiting immediately!
+2021-08-16 12:23:48,655 - INFO -Bot is started
+2021-08-16 12:23:48,658 - INFO -Scheduler started
+2021-08-16 12:23:56,647 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:23:56,648 - INFO -Scheduler has been shut down
+2021-08-16 12:24:49,887 - INFO -Bot is started
+2021-08-16 12:24:49,888 - INFO -Scheduler started
+2021-08-16 12:25:07,778 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:25:07,778 - INFO -Scheduler has been shut down
+2021-08-16 12:25:18,589 - INFO -Bot is started
+2021-08-16 12:25:18,590 - INFO -Scheduler started
+2021-08-16 12:25:22,592 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.edit_message_text(chat_id = update.effective_chat.id, caption = 'prev', reply_markup=reply_markup, photo = 'https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg')
+TypeError: edit_message_text() got an unexpected keyword argument 'chat_id'
+2021-08-16 12:25:24,139 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.edit_message_text(chat_id = update.effective_chat.id, caption = 'next', reply_markup=reply_markup,  photo =  'https://klike.net/uploads/posts/2019-05/1556708032_1.jpg')
+TypeError: edit_message_text() got an unexpected keyword argument 'chat_id'
+2021-08-16 12:25:27,009 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:25:27,009 - INFO -Scheduler has been shut down
+2021-08-16 12:25:46,036 - INFO -Bot is started
+2021-08-16 12:25:46,037 - INFO -Scheduler started
+2021-08-16 12:25:50,549 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.edit_message_text( caption = 'prev', reply_markup=reply_markup, photo = 'https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg')
+TypeError: edit_message_text() got an unexpected keyword argument 'caption'
+2021-08-16 12:25:51,936 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.edit_message_text( caption = 'next', reply_markup=reply_markup,  photo =  'https://klike.net/uploads/posts/2019-05/1556708032_1.jpg')
+TypeError: edit_message_text() got an unexpected keyword argument 'caption'
+2021-08-16 12:25:53,160 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:25:53,160 - INFO -Scheduler has been shut down
+2021-08-16 12:26:29,848 - INFO -Bot is started
+2021-08-16 12:26:29,849 - INFO -Scheduler started
+2021-08-16 12:26:32,971 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.edit_message('prev', reply_markup=reply_markup, photo = 'https://st2.depositphotos.com/1064024/10769/i/600/depositphotos_107694484-stock-photo-little-boy.jpg')
+AttributeError: 'CallbackQuery' object has no attribute 'edit_message'
+2021-08-16 12:26:33,924 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.edit_message('next', reply_markup=reply_markup,  photo =  'https://klike.net/uploads/posts/2019-05/1556708032_1.jpg')
+AttributeError: 'CallbackQuery' object has no attribute 'edit_message'
+2021-08-16 12:26:35,187 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:26:35,187 - INFO -Scheduler has been shut down
+2021-08-16 12:28:29,106 - INFO -Bot is started
+2021-08-16 12:28:29,107 - INFO -Scheduler started
+2021-08-16 12:28:33,552 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.edit_message_text(text='prev', reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/callbackquery.py", line 196, in edit_message_text
+    return self.message.edit_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1875, in edit_text
+    return self.bot.edit_message_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2483, in edit_message_text
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 350, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2021-08-16 12:28:34,973 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.edit_message_text(text='next', reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/callbackquery.py", line 196, in edit_message_text
+    return self.message.edit_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1875, in edit_text
+    return self.bot.edit_message_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2483, in edit_message_text
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 350, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2021-08-16 12:28:36,310 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:28:36,310 - INFO -Scheduler has been shut down
+2021-08-16 12:29:15,352 - INFO -Bot is started
+2021-08-16 12:29:15,352 - INFO -Scheduler started
+2021-08-16 12:29:17,631 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 32, in start
+    context.bot.send_message(chat_id = update.effective_chat.id, text = "Start handler, Choose a route", reply_markup=reply_markup, photo = 'https://icdn.lenta.ru/images/2021/04/27/16/20210427163138131/square_320_c09ebae17387b7d6eeb9fa0d42afe5ee.jpg')
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+TypeError: send_message() got an unexpected keyword argument 'photo'
+2021-08-16 12:29:19,347 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:29:19,348 - INFO -Scheduler has been shut down
+2021-08-16 12:34:54,000 - INFO -Bot is started
+2021-08-16 12:34:54,004 - INFO -Scheduler started
+2021-08-16 12:34:55,665 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:34:55,665 - INFO -Scheduler has been shut down
+2021-08-16 12:34:55,930 - WARNING -Exiting immediately!
+2021-08-16 12:40:34,145 - INFO -Bot is started
+2021-08-16 12:40:34,149 - INFO -Scheduler started
+2021-08-16 12:40:36,035 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev', reply_markup=reply_markup))
+AttributeError: 'CallbackQuery' object has no attribute 'edit_media'
+2021-08-16 12:40:37,382 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev', reply_markup=reply_markup))
+AttributeError: 'CallbackQuery' object has no attribute 'edit_media'
+2021-08-16 12:40:39,910 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:40:39,911 - INFO -Scheduler has been shut down
+2021-08-16 12:40:40,070 - WARNING -Exiting immediately!
+2021-08-16 12:41:54,654 - INFO -Bot is started
+2021-08-16 12:41:54,664 - INFO -Scheduler started
+2021-08-16 12:41:56,194 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev', reply_markup=reply_markup))
+TypeError: __init__() got an unexpected keyword argument 'reply_markup'
+2021-08-16 12:41:57,230 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev', reply_markup=reply_markup))
+TypeError: __init__() got an unexpected keyword argument 'reply_markup'
+2021-08-16 12:41:59,060 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:41:59,060 - INFO -Scheduler has been shut down
+2021-08-16 12:42:42,886 - INFO -Bot is started
+2021-08-16 12:42:42,888 - INFO -Scheduler started
+2021-08-16 12:42:48,885 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev'), reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-08-16 12:42:51,488 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev'), reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-08-16 12:42:53,467 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:42:53,467 - INFO -Scheduler has been shut down
+2021-08-16 12:45:46,217 - INFO -Bot is started
+2021-08-16 12:45:46,220 - INFO -Scheduler started
+2021-08-16 12:45:56,251 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:45:56,252 - INFO -Scheduler has been shut down
+2021-08-16 12:45:57,074 - WARNING -Exiting immediately!
+2021-08-16 12:46:07,580 - INFO -Bot is started
+2021-08-16 12:46:07,581 - INFO -Scheduler started
+2021-08-16 12:46:16,403 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://fainaidea.com/wp-content/uploads/2019/06/acastro_190322_1777_apple_streaming_0003.0.jpg",  caption='next'), reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-08-16 12:46:18,605 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 44, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://i.pinimg.com/originals/95/30/41/953041070f000d45c05c912005f63724.jpg",  caption='prev'), reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-08-16 12:46:23,505 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/test.py", line 49, in one
+    query.message.edit_media(media = InputMediaPhoto(media = "https://fainaidea.com/wp-content/uploads/2019/06/acastro_190322_1777_apple_streaming_0003.0.jpg",  caption='next'), reply_markup=reply_markup)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-08-16 12:46:27,273 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:46:27,273 - INFO -Scheduler has been shut down
+2021-08-16 12:58:44,444 - INFO -Bot is started
+2021-08-16 12:58:44,445 - INFO -Scheduler started
+2021-08-16 12:58:58,175 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 12:58:58,175 - INFO -Scheduler has been shut down
+2021-08-16 13:00:34,727 - INFO -Bot is started
+2021-08-16 13:00:34,728 - INFO -Scheduler started
+2021-08-16 13:00:51,425 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:00:51,425 - INFO -Scheduler has been shut down
+2021-08-16 13:00:52,117 - WARNING -Exiting immediately!
+2021-08-16 13:03:03,124 - INFO -Bot is started
+2021-08-16 13:03:03,124 - INFO -Scheduler started
+2021-08-16 13:03:25,721 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:03:25,721 - INFO -Scheduler has been shut down
+2021-08-16 13:03:26,792 - WARNING -Exiting immediately!
+2021-08-16 13:05:50,124 - INFO -Bot is started
+2021-08-16 13:05:50,125 - INFO -Scheduler started
+2021-08-16 13:05:57,192 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:05:57,192 - INFO -Scheduler has been shut down
+2021-08-16 13:05:57,364 - WARNING -Exiting immediately!
+2021-08-16 13:06:14,839 - INFO -Bot is started
+2021-08-16 13:06:14,839 - INFO -Scheduler started
+2021-08-16 13:06:34,616 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 73, in send_advert
+    while i<= len(adverts):
+UnboundLocalError: local variable 'i' referenced before assignment
+2021-08-16 13:06:37,407 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 73, in send_advert
+    while i<= len(adverts):
+UnboundLocalError: local variable 'i' referenced before assignment
+2021-08-16 13:06:40,496 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:06:40,496 - INFO -Scheduler has been shut down
+2021-08-16 13:06:41,050 - WARNING -Exiting immediately!
+2021-08-16 13:09:03,509 - INFO -Bot is started
+2021-08-16 13:09:03,509 - INFO -Scheduler started
+2021-08-16 13:09:17,631 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 79, in send_advert
+    while i <= len(adverts):
+UnboundLocalError: local variable 'i' referenced before assignment
+2021-08-16 13:09:19,306 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 79, in send_advert
+    while i <= len(adverts):
+UnboundLocalError: local variable 'i' referenced before assignment
+2021-08-16 13:09:25,464 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:09:25,465 - INFO -Scheduler has been shut down
+2021-08-16 13:09:25,971 - WARNING -Exiting immediately!
+2021-08-16 13:10:04,358 - INFO -Bot is started
+2021-08-16 13:10:04,358 - INFO -Scheduler started
+2021-08-16 13:10:10,172 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:10:10,173 - INFO -Scheduler has been shut down
+2021-08-16 13:10:10,340 - WARNING -Exiting immediately!
+2021-08-16 13:10:31,915 - INFO -Bot is started
+2021-08-16 13:10:31,915 - INFO -Scheduler started
+2021-08-16 13:10:44,510 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 99, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text), reply_markup=reply_markup, parse_mode=ParseMode.HTML)
+TypeError: edit_media() got an unexpected keyword argument 'parse_mode'
+2021-08-16 13:10:47,319 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 93, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text), reply_markup=reply_markup, parse_mode=ParseMode.HTML)
+TypeError: edit_media() got an unexpected keyword argument 'parse_mode'
+2021-08-16 13:10:48,892 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:10:48,892 - INFO -Scheduler has been shut down
+2021-08-16 13:10:49,497 - WARNING -Exiting immediately!
+2021-08-16 13:17:17,439 - INFO -Bot is started
+2021-08-16 13:17:17,441 - INFO -Scheduler started
+2021-08-16 13:17:27,348 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+TypeError: edit_media() got an unexpected keyword argument 'parse_mode'
+2021-08-16 13:17:28,850 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 98, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+TypeError: edit_media() got an unexpected keyword argument 'parse_mode'
+2021-08-16 13:17:30,419 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:17:30,419 - INFO -Scheduler has been shut down
+2021-08-16 13:17:30,684 - WARNING -Exiting immediately!
+2021-08-16 13:18:24,059 - INFO -Bot is started
+2021-08-16 13:18:24,059 - INFO -Scheduler started
+2021-08-16 13:18:48,972 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 107, in send_advert
+    query.answer()
+  File "/usr/local/lib/python3.9/site-packages/telegram/callbackquery.py", line 146, in answer
+    return self.bot.answer_callback_query(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2415, in answer_callback_query
+    result = self._post('answerCallbackQuery', data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 350, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:49,083 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:49,172 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:49,250 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:49,329 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 98, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:49,418 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 98, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:53,038 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:18:59,870 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:19:40,824 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(chat_id = update.effective_chat.id, media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'chat_id'
+2021-08-16 13:19:57,922 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:19:57,922 - INFO -Scheduler has been shut down
+2021-08-16 13:19:58,135 - WARNING -Exiting immediately!
+2021-08-16 13:20:51,289 - INFO -Bot is started
+2021-08-16 13:20:51,290 - INFO -Scheduler started
+2021-08-16 13:21:17,437 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:21:17,437 - INFO -Scheduler has been shut down
+2021-08-16 13:21:17,675 - WARNING -Exiting immediately!
+2021-08-16 13:23:35,850 - INFO -Bot is started
+2021-08-16 13:23:35,850 - INFO -Scheduler started
+2021-08-16 13:23:48,934 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'caption'
+2021-08-16 13:23:50,783 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 105, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'caption'
+2021-08-16 13:24:12,929 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 98, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 1956, in edit_media
+    return self.bot.edit_message_media(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2625, in edit_message_media
+    return self._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 348, in post
+    result = self._request_wrapper('POST', url, fields=data, **urlopen_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 112, in send_advert
+    query.message.edit_media(media = "https://retinaks.ru/files/default_images/nofoto.png",
+TypeError: edit_media() got an unexpected keyword argument 'caption'
+2021-08-16 13:24:21,386 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:24:21,386 - INFO -Scheduler has been shut down
+2021-08-16 13:24:21,625 - WARNING -Exiting immediately!
+2021-08-16 13:41:53,013 - INFO -Bot is started
+2021-08-16 13:41:53,014 - INFO -Scheduler started
+2021-08-16 13:42:02,037 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 108, in send_advert
+    query.message.edit_media(media = InputMediaPhoto(media = single_adv['img'],  caption=text),
+TypeError: edit_media() got an unexpected keyword argument 'parse_mode'
+2021-08-16 13:42:06,266 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:42:06,266 - INFO -Scheduler has been shut down
+2021-08-16 13:43:36,406 - INFO -Bot is started
+2021-08-16 13:43:36,407 - INFO -Scheduler started
+2021-08-16 13:43:50,386 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:43:50,387 - INFO -Scheduler has been shut down
+2021-08-16 13:43:50,960 - WARNING -Exiting immediately!
+2021-08-16 13:46:18,131 - INFO -Bot is started
+2021-08-16 13:46:18,132 - INFO -Scheduler started
+2021-08-16 13:46:37,586 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 13:46:37,586 - INFO -Scheduler has been shut down
+2021-08-16 13:46:44,910 - WARNING -Exiting immediately!
+2021-08-16 14:07:11,191 - INFO -Bot is started
+2021-08-16 14:07:11,192 - INFO -Scheduler started
+2021-08-16 14:07:38,070 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:07:38,070 - INFO -Scheduler has been shut down
+2021-08-16 14:07:38,447 - WARNING -Exiting immediately!
+2021-08-16 14:12:43,162 - INFO -Bot is started
+2021-08-16 14:12:43,162 - INFO -Scheduler started
+2021-08-16 14:13:20,720 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:13:20,720 - INFO -Scheduler has been shut down
+2021-08-16 14:13:26,266 - WARNING -Exiting immediately!
+2021-08-16 14:17:07,833 - INFO -Bot is started
+2021-08-16 14:17:07,833 - INFO -Scheduler started
+2021-08-16 14:17:19,966 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 113, in send_advert
+    single_adv=adverts[i]
+IndexError: list index out of range
+2021-08-16 14:17:40,772 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:17:40,773 - INFO -Scheduler has been shut down
+2021-08-16 14:17:41,614 - WARNING -Exiting immediately!
+2021-08-16 14:17:44,909 - INFO -Bot is started
+2021-08-16 14:17:44,910 - INFO -Scheduler started
+2021-08-16 14:18:13,648 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:18:13,648 - INFO -Scheduler has been shut down
+2021-08-16 14:18:13,862 - WARNING -Exiting immediately!
+2021-08-16 14:18:32,284 - INFO -Bot is started
+2021-08-16 14:18:32,284 - INFO -Scheduler started
+2021-08-16 14:19:04,509 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:19:04,509 - INFO -Scheduler has been shut down
+2021-08-16 14:19:05,202 - WARNING -Exiting immediately!
+2021-08-16 14:26:22,427 - INFO -Bot is started
+2021-08-16 14:26:22,427 - INFO -Scheduler started
+2021-08-16 14:26:37,038 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 63, in colect_advert
+    adverts = get_web.get_adverts('https://www.olx.ua/list/q-'+search_text)
+  File "/Users/ibragim/Desktop/olxbot/get_web.py", line 66, in get_adverts
+    return adv
+UnboundLocalError: local variable 'adv' referenced before assignment
+2021-08-16 14:26:44,842 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:26:44,843 - INFO -Scheduler has been shut down
+2021-08-16 14:26:45,054 - WARNING -Exiting immediately!
+2021-08-16 14:28:26,851 - INFO -Bot is started
+2021-08-16 14:28:26,851 - INFO -Scheduler started
+2021-08-16 14:28:56,565 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:28:56,566 - INFO -Scheduler has been shut down
+2021-08-16 14:28:57,233 - WARNING -Exiting immediately!
+2021-08-16 14:33:08,256 - INFO -Bot is started
+2021-08-16 14:33:08,256 - INFO -Scheduler started
+2021-08-16 14:33:28,803 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:33:28,803 - INFO -Scheduler has been shut down
+2021-08-16 14:33:29,241 - WARNING -Exiting immediately!
+2021-08-16 14:40:22,848 - INFO -Bot is started
+2021-08-16 14:40:22,848 - INFO -Scheduler started
+2021-08-16 14:40:39,273 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:40:39,273 - INFO -Scheduler has been shut down
+2021-08-16 14:40:39,446 - WARNING -Exiting immediately!
+2021-08-16 14:40:46,497 - INFO -Bot is started
+2021-08-16 14:40:46,497 - INFO -Scheduler started
+2021-08-16 14:41:27,308 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:41:27,308 - INFO -Scheduler has been shut down
+2021-08-16 14:41:27,461 - WARNING -Exiting immediately!
+2021-08-16 14:42:41,944 - INFO -Bot is started
+2021-08-16 14:42:41,945 - INFO -Scheduler started
+2021-08-16 14:43:34,223 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:43:34,224 - INFO -Scheduler has been shut down
+2021-08-16 14:45:53,590 - INFO -Bot is started
+2021-08-16 14:45:53,591 - INFO -Scheduler started
+2021-08-16 14:46:18,243 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 14:46:18,243 - INFO -Scheduler has been shut down
+2021-08-16 14:47:53,295 - INFO -Bot is started
+2021-08-16 14:47:53,296 - INFO -Scheduler started
+2021-08-16 15:00:36,863 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 15:00:36,863 - INFO -Scheduler has been shut down
+2021-08-16 15:01:34,408 - INFO -Bot is started
+2021-08-16 15:01:34,408 - INFO -Scheduler started
+2021-08-16 15:08:07,854 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 15:08:07,854 - INFO -Scheduler has been shut down
+2021-08-16 15:08:08,026 - WARNING -Exiting immediately!
+2021-08-16 15:08:09,552 - INFO -Bot is started
+2021-08-16 15:08:09,552 - INFO -Scheduler started
+2021-08-16 15:13:38,389 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 15:13:38,389 - INFO -Scheduler has been shut down
+2021-08-16 15:13:38,622 - WARNING -Exiting immediately!
+2021-08-16 21:31:44,709 - INFO -Bot is started
+2021-08-16 21:31:44,710 - INFO -Scheduler started
+2021-08-16 21:34:38,331 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 117, in send_advert_prokl
+    context.bot.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 661, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 350, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Wrong remote file identifier specified: can't unserialize it. wrong last symbol
+2021-08-16 21:35:00,708 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 21:35:00,708 - INFO -Scheduler has been shut down
+2021-08-16 21:35:02,480 - WARNING -Exiting immediately!
+2021-08-16 22:13:50,539 - INFO -Bot is started
+2021-08-16 22:13:50,540 - INFO -Scheduler started
+2021-08-16 22:15:56,930 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 121, in send_advert_prokl
+    context.bot.send_photo(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 127, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 661, in send_photo
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 296, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 259, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 350, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Wrong remote file identifier specified: can't unserialize it. wrong last symbol
+2021-08-16 22:16:49,032 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:16:49,034 - INFO -Scheduler has been shut down
+2021-08-16 22:42:55,439 - INFO -Bot is started
+2021-08-16 22:42:55,440 - INFO -Scheduler started
+2021-08-16 22:43:06,992 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 181, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:44:14,308 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 156, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:44:15,994 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 181, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:44:35,005 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:44:35,005 - INFO -Scheduler has been shut down
+2021-08-16 22:44:35,977 - WARNING -Exiting immediately!
+2021-08-16 22:45:04,753 - INFO -Bot is started
+2021-08-16 22:45:04,754 - INFO -Scheduler started
+2021-08-16 22:45:15,584 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 182, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:45:19,455 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 157, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:45:33,993 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:45:33,993 - INFO -Scheduler has been shut down
+2021-08-16 22:45:34,572 - WARNING -Exiting immediately!
+2021-08-16 22:46:13,620 - INFO -Bot is started
+2021-08-16 22:46:13,620 - INFO -Scheduler started
+2021-08-16 22:46:28,672 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 183, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:46:35,527 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 158, in send_advert
+    if single_adv['chat_id'] == chat_id:
+KeyError: 'chat_id'
+2021-08-16 22:46:49,559 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:46:49,559 - INFO -Scheduler has been shut down
+2021-08-16 22:46:49,770 - WARNING -Exiting immediately!
+2021-08-16 22:47:18,764 - INFO -Bot is started
+2021-08-16 22:47:18,764 - INFO -Scheduler started
+2021-08-16 22:49:33,729 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:49:33,730 - INFO -Scheduler has been shut down
+2021-08-16 22:49:34,349 - WARNING -Exiting immediately!
+2021-08-16 22:55:20,043 - INFO -Bot is started
+2021-08-16 22:55:20,043 - INFO -Scheduler started
+2021-08-16 22:56:49,240 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 22:56:49,241 - INFO -Scheduler has been shut down
+2021-08-16 22:56:49,643 - WARNING -Exiting immediately!
+2021-08-16 23:15:32,860 - INFO -Bot is started
+2021-08-16 23:15:32,862 - INFO -Scheduler started
+2021-08-16 23:18:10,477 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:18:10,477 - INFO -Scheduler has been shut down
+2021-08-16 23:18:10,673 - WARNING -Exiting immediately!
+2021-08-16 23:19:09,850 - INFO -Bot is started
+2021-08-16 23:19:09,851 - INFO -Scheduler started
+2021-08-16 23:20:21,669 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:20:21,669 - INFO -Scheduler has been shut down
+2021-08-16 23:30:21,531 - INFO -Bot is started
+2021-08-16 23:30:21,531 - INFO -Scheduler started
+2021-08-16 23:32:06,684 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:32:06,684 - INFO -Scheduler has been shut down
+2021-08-16 23:33:29,504 - INFO -Bot is started
+2021-08-16 23:33:29,504 - INFO -Scheduler started
+2021-08-16 23:33:47,077 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:33:47,077 - INFO -Scheduler has been shut down
+2021-08-16 23:33:47,758 - WARNING -Exiting immediately!
+2021-08-16 23:37:42,523 - INFO -Bot is started
+2021-08-16 23:37:42,523 - INFO -Scheduler started
+2021-08-16 23:37:48,742 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 441, in process_update
+    check = handler.check_update(update)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 563, in check_update
+    check = fallback.check_update(update)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/messagehandler.py", line 193, in check_update
+    return self.filters(update)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/filters.py", line 199, in __call__
+    return self.filter(update)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/filters.py", line 288, in filter
+    comp_output = self.and_filter(update)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/filters.py", line 166, in __call__
+    return self.filter(update.effective_message)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/filters.py", line 415, in filter
+    return message.text in self.strings
+TypeError: argument of type 'InvertedFilter' is not iterable
+2021-08-16 23:38:19,025 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:38:19,025 - INFO -Scheduler has been shut down
+2021-08-16 23:39:49,900 - INFO -Bot is started
+2021-08-16 23:39:49,900 - INFO -Scheduler started
+2021-08-16 23:40:53,988 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:40:53,988 - INFO -Scheduler has been shut down
+2021-08-16 23:40:59,057 - WARNING -Exiting immediately!
+2021-08-16 23:41:00,381 - INFO -Bot is started
+2021-08-16 23:41:00,381 - INFO -Scheduler started
+2021-08-16 23:41:12,391 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:41:12,391 - INFO -Scheduler has been shut down
+2021-08-16 23:41:12,608 - WARNING -Exiting immediately!
+2021-08-16 23:41:43,419 - INFO -Bot is started
+2021-08-16 23:41:43,419 - INFO -Scheduler started
+2021-08-16 23:41:57,767 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:41:57,767 - INFO -Scheduler has been shut down
+2021-08-16 23:42:46,663 - INFO -Bot is started
+2021-08-16 23:42:46,663 - INFO -Scheduler started
+2021-08-16 23:43:01,802 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-16 23:43:01,802 - INFO -Scheduler has been shut down
+2021-08-17 14:59:02,937 - INFO -Bot is started
+2021-08-17 14:59:02,938 - INFO -Scheduler started
+2021-08-17 15:00:08,918 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:00:08,918 - INFO -Scheduler has been shut down
+2021-08-17 15:00:09,218 - WARNING -Exiting immediately!
+2021-08-17 15:01:21,914 - INFO -Bot is started
+2021-08-17 15:01:21,914 - INFO -Scheduler started
+2021-08-17 15:01:32,737 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:01:32,738 - INFO -Scheduler has been shut down
+2021-08-17 15:01:33,119 - WARNING -Exiting immediately!
+2021-08-17 15:02:14,487 - INFO -Bot is started
+2021-08-17 15:02:14,487 - INFO -Scheduler started
+2021-08-17 15:02:31,294 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:02:31,294 - INFO -Scheduler has been shut down
+2021-08-17 15:05:54,389 - INFO -Bot is started
+2021-08-17 15:05:54,389 - INFO -Scheduler started
+2021-08-17 15:06:13,925 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:06:13,925 - INFO -Scheduler has been shut down
+2021-08-17 15:06:14,170 - WARNING -Exiting immediately!
+2021-08-17 15:06:33,566 - INFO -Bot is started
+2021-08-17 15:06:33,566 - INFO -Scheduler started
+2021-08-17 15:06:45,221 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:06:45,222 - INFO -Scheduler has been shut down
+2021-08-17 15:06:46,804 - WARNING -Exiting immediately!
+2021-08-17 15:06:51,303 - INFO -Bot is started
+2021-08-17 15:06:51,303 - INFO -Scheduler started
+2021-08-17 15:07:09,569 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:07:09,569 - INFO -Scheduler has been shut down
+2021-08-17 15:07:10,379 - WARNING -Exiting immediately!
+2021-08-17 15:07:25,313 - INFO -Bot is started
+2021-08-17 15:07:25,314 - INFO -Scheduler started
+2021-08-17 15:07:39,431 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:07:39,431 - INFO -Scheduler has been shut down
+2021-08-17 15:07:40,435 - WARNING -Exiting immediately!
+2021-08-17 15:08:14,757 - INFO -Bot is started
+2021-08-17 15:08:14,757 - INFO -Scheduler started
+2021-08-17 15:08:29,344 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:08:29,345 - INFO -Scheduler has been shut down
+2021-08-17 15:08:29,554 - WARNING -Exiting immediately!
+2021-08-17 15:09:08,885 - INFO -Bot is started
+2021-08-17 15:09:08,886 - INFO -Scheduler started
+2021-08-17 15:09:19,346 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:09:19,346 - INFO -Scheduler has been shut down
+2021-08-17 15:09:19,578 - WARNING -Exiting immediately!
+2021-08-17 15:09:51,072 - INFO -Bot is started
+2021-08-17 15:09:51,072 - INFO -Scheduler started
+2021-08-17 15:11:21,695 - INFO -Bot is started
+2021-08-17 15:11:21,695 - INFO -Scheduler started
+2021-08-17 15:12:10,599 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:12:10,600 - INFO -Scheduler has been shut down
+2021-08-17 15:12:10,795 - WARNING -Exiting immediately!
+2021-08-17 15:12:12,558 - INFO -Bot is started
+2021-08-17 15:12:12,558 - INFO -Scheduler started
+2021-08-17 15:12:21,598 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:12:21,598 - INFO -Scheduler has been shut down
+2021-08-17 15:12:21,816 - WARNING -Exiting immediately!
+2021-08-17 15:12:43,715 - INFO -Bot is started
+2021-08-17 15:12:43,715 - INFO -Scheduler started
+2021-08-17 15:12:56,153 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:12:56,153 - INFO -Scheduler has been shut down
+2021-08-17 15:14:11,198 - INFO -Bot is started
+2021-08-17 15:14:11,198 - INFO -Scheduler started
+2021-08-17 15:14:24,491 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:14:24,492 - INFO -Scheduler has been shut down
+2021-08-17 15:14:25,401 - WARNING -Exiting immediately!
+2021-08-17 15:14:51,713 - INFO -Bot is started
+2021-08-17 15:14:51,713 - INFO -Scheduler started
+2021-08-17 15:15:37,307 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:15:37,307 - INFO -Scheduler has been shut down
+2021-08-17 15:15:37,829 - WARNING -Exiting immediately!
+2021-08-17 15:17:00,315 - INFO -Bot is started
+2021-08-17 15:17:00,315 - INFO -Scheduler started
+2021-08-17 15:17:14,086 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 243, in make_db
+    adverts = get_web.get_adverts('https://www.olx.ua/list/q-'+search_text)
+TypeError: get_adverts() missing 1 required positional argument: 'chat_id'
+2021-08-17 15:17:18,300 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:17:18,301 - INFO -Scheduler has been shut down
+2021-08-17 15:18:02,107 - INFO -Bot is started
+2021-08-17 15:18:02,107 - INFO -Scheduler started
+2021-08-17 15:18:16,341 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:18:16,341 - INFO -Scheduler has been shut down
+2021-08-17 15:18:16,759 - WARNING -Exiting immediately!
+2021-08-17 15:18:27,169 - INFO -Bot is started
+2021-08-17 15:18:27,169 - INFO -Scheduler started
+2021-08-17 15:18:36,678 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 243, in make_db
+    adverts = get_web.get_adverts('https://www.olx.ua/list/q-'+search_text)
+TypeError: get_adverts() missing 1 required positional argument: 'chat_id'
+2021-08-17 15:18:43,460 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:18:43,460 - INFO -Scheduler has been shut down
+2021-08-17 15:18:44,340 - WARNING -Exiting immediately!
+2021-08-17 15:18:49,617 - INFO -Bot is started
+2021-08-17 15:18:49,618 - INFO -Scheduler started
+2021-08-17 15:19:02,995 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:19:02,996 - INFO -Scheduler has been shut down
+2021-08-17 15:19:03,370 - WARNING -Exiting immediately!
+2021-08-17 15:19:46,059 - INFO -Bot is started
+2021-08-17 15:19:46,059 - INFO -Scheduler started
+2021-08-17 15:19:49,789 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:19:49,789 - INFO -Scheduler has been shut down
+2021-08-17 15:20:33,975 - INFO -Bot is started
+2021-08-17 15:20:33,976 - INFO -Scheduler started
+2021-08-17 15:20:49,012 - INFO -BEGIN (implicit)
+2021-08-17 15:20:49,020 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:20:49,020 - INFO -[generated in 0.00028s] ('https://www.olx.ua/d/obyavlenie/klasniy-velosiped-bmh-bmx-IDMsys1.html?sd=1#2bf77a76f1;promoted',)
+2021-08-17 15:20:49,021 - INFO -BEGIN (implicit)
+2021-08-17 15:20:49,023 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:20:49,023 - INFO -[generated in 0.00020s] (None, 'Класний велосипед Бмх Bmx', '2 600 грн.', 'https://www.olx.ua/d/obyavlenie/klasniy-velosiped-bmh-bmx-IDMsys1.html?sd=1#2bf77a76f1;promoted', 'Здовбиця')
+2021-08-17 15:20:49,023 - INFO -ROLLBACK
+2021-08-17 15:20:49,024 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 253, in make_db
+    model.save_adv(single_adv['title'],single_adv['url'],single_adv['location'],single_adv['price'],single_adv['chat_id'])
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (None, 'Класний велосипед Бмх Bmx', '2 600 грн.', 'https://www.olx.ua/d/obyavlenie/klasniy-velosiped-bmh-bmx-IDMsys1.html?sd=1#2bf77a76f1;promoted', 'Здовбиця')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:20:55,302 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:20:55,302 - INFO -Scheduler has been shut down
+2021-08-17 15:20:55,831 - WARNING -Exiting immediately!
+2021-08-17 15:21:49,479 - INFO -Bot is started
+2021-08-17 15:21:49,479 - INFO -Scheduler started
+2021-08-17 15:22:03,846 - INFO -BEGIN (implicit)
+2021-08-17 15:22:03,856 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:22:03,856 - INFO -[generated in 0.00027s] ('https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted',)
+2021-08-17 15:22:03,858 - INFO -BEGIN (implicit)
+2021-08-17 15:22:03,860 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:22:03,860 - INFO -[generated in 0.00039s] (None, 'разборка AUDI A6C6 2004-2010 год!!!', '25 000 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted', 'Коростень')
+2021-08-17 15:22:03,861 - INFO -ROLLBACK
+2021-08-17 15:22:03,862 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 253, in make_db
+    model.save_adv(single_adv['title'],single_adv['url'],single_adv['location'],single_adv['price'],single_adv['chat_id'])
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (None, 'разборка AUDI A6C6 2004-2010 год!!!', '25 000 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted', 'Коростень')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:22:30,047 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:22:30,048 - INFO -Scheduler has been shut down
+2021-08-17 15:22:30,213 - WARNING -Exiting immediately!
+2021-08-17 15:25:14,789 - INFO -Bot is started
+2021-08-17 15:25:14,789 - INFO -Scheduler started
+2021-08-17 15:25:24,179 - INFO -BEGIN (implicit)
+2021-08-17 15:25:24,186 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:25:24,186 - INFO -[generated in 0.00036s] ('https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-a4-b8-b9-audi-a4-bamper-krylo-fara-kapot-dver-IDIXOUJ.html#b029c56c38;promoted',)
+2021-08-17 15:25:24,187 - INFO -BEGIN (implicit)
+2021-08-17 15:25:24,188 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:25:24,188 - INFO -[generated in 0.00018s] (None, 'Разборка запчасти Audi A4 B8 B9 Ауди А4 Бампер крыло фара капот дверь', '79 982 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-a4-b8-b9-audi-a4-bamper-krylo-fara-kapot-dver-IDIXOUJ.html#b029c56c38;promoted', 'Ковель')
+2021-08-17 15:25:24,189 - INFO -ROLLBACK
+2021-08-17 15:25:24,189 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 249, in make_db
+    model.save_adv(single_adv['title'],single_adv['url'],single_adv['location'],single_adv['price'],single_adv['chat_id'])
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (None, 'Разборка запчасти Audi A4 B8 B9 Ауди А4 Бампер крыло фара капот дверь', '79 982 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-a4-b8-b9-audi-a4-bamper-krylo-fara-kapot-dver-IDIXOUJ.html#b029c56c38;promoted', 'Ковель')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:25:30,077 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:25:30,077 - INFO -Scheduler has been shut down
+2021-08-17 15:26:00,357 - INFO -Bot is started
+2021-08-17 15:26:00,358 - INFO -Scheduler started
+2021-08-17 15:26:18,837 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:26:18,838 - INFO -Scheduler has been shut down
+2021-08-17 15:26:19,141 - WARNING -Exiting immediately!
+2021-08-17 15:27:30,868 - INFO -Bot is started
+2021-08-17 15:27:30,868 - INFO -Scheduler started
+2021-08-17 15:27:41,035 - INFO -BEGIN (implicit)
+2021-08-17 15:27:41,045 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:27:41,045 - INFO -[generated in 0.00026s] ('https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-audi-80-b4-2-0-abt-90l-s-monoinzhektor-IDpsJAM.html#b029c56c38;promoted',)
+2021-08-17 15:27:41,046 - INFO -BEGIN (implicit)
+2021-08-17 15:27:41,047 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:27:41,047 - INFO -[generated in 0.00018s] (None, 'Разборка/Запчасти АУДИ AUDI 80 Б4 2.0 ABT 90л.с Моноинжектор...', '15 685 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-audi-80-b4-2-0-abt-90l-s-monoinzhektor-IDpsJAM.html#b029c56c38;promoted', 'Андрушевка')
+2021-08-17 15:27:41,048 - INFO -ROLLBACK
+2021-08-17 15:27:41,048 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 249, in make_db
+    model.save_adv(
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (None, 'Разборка/Запчасти АУДИ AUDI 80 Б4 2.0 ABT 90л.с Моноинжектор...', '15 685 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-zapchasti-audi-audi-80-b4-2-0-abt-90l-s-monoinzhektor-IDpsJAM.html#b029c56c38;promoted', 'Андрушевка')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:27:52,938 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:27:52,939 - INFO -Scheduler has been shut down
+2021-08-17 15:29:08,852 - INFO -Bot is started
+2021-08-17 15:29:08,853 - INFO -Scheduler started
+2021-08-17 15:29:16,772 - INFO -BEGIN (implicit)
+2021-08-17 15:29:16,782 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:29:16,783 - INFO -[generated in 0.00085s] ('https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted',)
+2021-08-17 15:29:16,785 - INFO -BEGIN (implicit)
+2021-08-17 15:29:16,786 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:29:16,786 - INFO -[generated in 0.00017s] (None, 'разборка AUDI A6C6 2004-2010 год!!!', '25 000 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted', 'Коростень')
+2021-08-17 15:29:16,787 - INFO -ROLLBACK
+2021-08-17 15:29:16,787 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 249, in make_db
+    model.save_adv(
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (None, 'разборка AUDI A6C6 2004-2010 год!!!', '25 000 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-audi-a6c6-2004-2010-god-IDpjgr2.html#b029c56c38;promoted', 'Коростень')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:29:22,755 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:29:22,755 - INFO -Scheduler has been shut down
+2021-08-17 15:29:23,586 - WARNING -Exiting immediately!
+2021-08-17 15:30:21,186 - INFO -Bot is started
+2021-08-17 15:30:21,187 - INFO -Scheduler started
+2021-08-17 15:30:28,695 - INFO -BEGIN (implicit)
+2021-08-17 15:30:28,702 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:30:28,702 - INFO -[generated in 0.00028s] ('https://www.olx.ua/d/obyavlenie/prodam-audi-a6-c5-2-5-IDLz48X.html#b029c56c38;promoted',)
+2021-08-17 15:30:28,703 - INFO -BEGIN (implicit)
+2021-08-17 15:30:28,704 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:30:28,705 - INFO -[generated in 0.00027s] (1197477810, 'Продам audi a6 c5 2.5', '119 946 грн.', 'https://www.olx.ua/d/obyavlenie/prodam-audi-a6-c5-2-5-IDLz48X.html#b029c56c38;promoted', 'Днепр, Индустриальный')
+2021-08-17 15:30:28,706 - INFO -COMMIT
+2021-08-17 15:30:28,710 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:30:28,710 - INFO -[cached since 0.008624s ago] ('https://www.olx.ua/d/obyavlenie/audi-a6-c5-2-5tdi-IDLia2M.html#b029c56c38;promoted',)
+2021-08-17 15:30:28,711 - INFO -BEGIN (implicit)
+2021-08-17 15:30:28,712 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:30:28,712 - INFO -[cached since 0.007579s ago] (1197477810, 'Audi a6 c5 2.5tdi', '135 969 грн.', 'https://www.olx.ua/d/obyavlenie/audi-a6-c5-2-5tdi-IDLia2M.html#b029c56c38;promoted', 'Ирпень')
+2021-08-17 15:30:28,713 - INFO -ROLLBACK
+2021-08-17 15:30:28,714 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 249, in make_db
+    model.save_adv(
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (1197477810, 'Audi a6 c5 2.5tdi', '135 969 грн.', 'https://www.olx.ua/d/obyavlenie/audi-a6-c5-2-5tdi-IDLia2M.html#b029c56c38;promoted', 'Ирпень')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:30:36,582 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:30:36,582 - INFO -Scheduler has been shut down
+2021-08-17 15:30:37,388 - WARNING -Exiting immediately!
+2021-08-17 15:31:23,192 - INFO -Bot is started
+2021-08-17 15:31:23,192 - INFO -Scheduler started
+2021-08-17 15:31:33,415 - INFO -BEGIN (implicit)
+2021-08-17 15:31:33,421 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:31:33,421 - INFO -[generated in 0.00029s] ('https://www.olx.ua/d/obyavlenie/audi-a4-po-sebestoimosti-IDMrH4O.html#b029c56c38;promoted',)
+2021-08-17 15:31:33,423 - INFO -BEGIN (implicit)
+2021-08-17 15:31:33,424 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:31:33,425 - INFO -[generated in 0.00071s] (1197477810, 'AUDI A4 по себестоимости', '367 916 грн.', 'https://www.olx.ua/d/obyavlenie/audi-a4-po-sebestoimosti-IDMrH4O.html#b029c56c38;promoted', 'Киев, Голосеевский')
+2021-08-17 15:31:33,426 - INFO -COMMIT
+2021-08-17 15:31:33,430 - INFO -SELECT count(*) AS count_1 
+FROM (SELECT "Advertisments".id AS "Advertisments_id", "Advertisments".chat_id AS "Advertisments_chat_id", "Advertisments".title AS "Advertisments_title", "Advertisments".price AS "Advertisments_price", "Advertisments".url AS "Advertisments_url", "Advertisments".location AS "Advertisments_location" 
+FROM "Advertisments" 
+WHERE "Advertisments".url = ?) AS anon_1
+2021-08-17 15:31:33,430 - INFO -[cached since 0.009352s ago] ('https://www.olx.ua/d/obyavlenie/razborka-avtorazborka-volkswagen-touareg-audi-q7-rozborka-zapchasti-ku7-IDLyaF9.html#b029c56c38;promoted',)
+2021-08-17 15:31:33,431 - INFO -BEGIN (implicit)
+2021-08-17 15:31:33,431 - INFO -INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)
+2021-08-17 15:31:33,432 - INFO -[cached since 0.007185s ago] (1197477810, 'Разборка АВТОРАЗБОРКА Volkswagen Touareg Audi Q7 Розборка Запчасти Ку7', '266 579 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-avtorazborka-volkswagen-touareg-audi-q7-rozborka-zapchasti-ku7-IDLyaF9.html#b029c56c38;promoted', 'Ровно')
+2021-08-17 15:31:33,432 - INFO -ROLLBACK
+2021-08-17 15:31:33,432 - ERROR -No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: UNIQUE constraint failed: Advertisments.chat_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 447, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 602, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 160, in handle_update
+    return self.callback(update, context)
+  File "/Users/ibragim/Desktop/olxbot/utils.py", line 249, in make_db
+    model.save_adv(
+  File "/Users/ibragim/Desktop/olxbot/model.py", line 49, in save_adv
+    Advs.session.commit()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 1428, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3298, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3438, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/session.py", line 3398, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 242, in save_obj
+    _emit_insert_statements(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/orm/persistence.py", line 1219, in _emit_insert_statements
+    result = connection._execute_20(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1582, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1451, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1813, in _execute_context
+    self._handle_dbapi_exception(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1994, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
+    self.dialect.do_execute(
+  File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: Advertisments.chat_id
+[SQL: INSERT INTO "Advertisments" (chat_id, title, price, url, location) VALUES (?, ?, ?, ?, ?)]
+[parameters: (1197477810, 'Разборка АВТОРАЗБОРКА Volkswagen Touareg Audi Q7 Розборка Запчасти Ку7', '266 579 грн.', 'https://www.olx.ua/d/obyavlenie/razborka-avtorazborka-volkswagen-touareg-audi-q7-rozborka-zapchasti-ku7-IDLyaF9.html#b029c56c38;promoted', 'Ровно')]
+(Background on this error at: http://sqlalche.me/e/14/gkpj)
+2021-08-17 15:32:04,028 - INFO -Received signal 2 (SIGINT), stopping...
+2021-08-17 15:32:04,028 - INFO -Scheduler has been shut down
+2021-08-17 15:32:04,517 - WARNING -Exiting immediately!

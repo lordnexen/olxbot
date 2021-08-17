@@ -11,7 +11,7 @@ from telegram.files.location import Location
 import config
 import utils
 
-SEARCHTEXT, SENDADV, SENDADV_PROKL, COLADV, MAKEDB = range(5)
+
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s -%(message)s',
 level=logging.INFO,
