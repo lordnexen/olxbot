@@ -6,6 +6,7 @@ from requests.sessions import session
 
 
 import model
+import json
 import bot
 
 import config
@@ -21,7 +22,7 @@ def get_html(url):
 
 
 def get_adverts(link, chat_id):
-    
+    print(link)
     html=get_html(link)
     if html:
         soup=BeautifulSoup(html,"html.parser")
@@ -31,6 +32,7 @@ def get_adverts(link, chat_id):
         adv=[]
         
         for advert in advs:
+            all_advs['link'] = link
             all_advs['chat_id'] = chat_id
             title = advert.find('h3', class_='lheight22 margintop5').text
             all_advs['title']=title.strip()
@@ -64,7 +66,10 @@ def get_adverts(link, chat_id):
             adv.append(all_advs)
             all_advs={}
     
-    return adv
+    with open(f'{chat_id}.txt','w', encoding='utf-8') as file:
+        json.dump(adv, file, ensure_ascii=False)
+
+    return f'{chat_id}.txt'
    
 
 
