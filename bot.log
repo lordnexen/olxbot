@@ -11543,3 +11543,8 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 273, in _request_wrapper
     raise BadRequest(message)
 telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2022-04-09 18:38:21,580 - INFO -Bot is started
+2022-04-09 18:38:21,580 - INFO -Scheduler started
+2022-04-09 18:38:59,077 - INFO -Received signal 2 (SIGINT), stopping...
+2022-04-09 18:38:59,078 - INFO -Scheduler has been shut down
+2022-04-09 18:38:59,397 - WARNING -Exiting immediately!
