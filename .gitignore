@@ -1,5 +1,4 @@
 *.log
-*.db
 config.py
 *.txt
 __pycache__
