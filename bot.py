@@ -18,9 +18,6 @@ level=logging.INFO,
 filename='bot.log'
 )
 
-
-
-
 def main():
 
     mybot = Updater(config.API_KEY)

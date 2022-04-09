@@ -38,6 +38,7 @@ class Advs(Base):
 
 Advs.metadata.create_all(engine)
 
+
 def save_adv(title,url,location,price,chat_id):
     
     news_exists = session.query(Advs).filter(Advs.url == url).count()
